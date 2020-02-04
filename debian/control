@@ -1,0 +1,16 @@
+Source: com.github.brayanio.gtk-hey
+Section: x11
+Priority: extra
+Maintainer: Brayan Byrdsong <brayanbyrdsong@icloud.com>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               meson,
+               valac (>= 0.28.0)
+Standards-Version: 4.1.1
+
+Package: com.github.brayanio.gtk-hey
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hey young world
+ This is a Hello World written in Vala using Meson build system.
